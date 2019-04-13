@@ -1,0 +1,56 @@
+body{
+  background-image:url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color:white;
+}
+
+.grid-templates{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  background-image: url('rain.jpg');
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+}
+
+.tiles{
+  padding-top: 150px;
+  border-right: 2px solid grey;
+}
+.inputFile{
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    display: inline;
+}
+
+.button{
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  width: 320px;
+  background-color: white;
+  padding: 10px;
+  height: 50px;
+  font-size: 20px;
+}
+.weather{
+
+}
+.error{
+  color:red;
+  font-size: 30px;
+}
+.form{
+  margin-top: 50px;
+}
+
+.container{
+  width:70%;
+  margin:auto;
+    padding: 40px;
+}
